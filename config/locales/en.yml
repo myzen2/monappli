@@ -65,8 +65,7 @@ en:
       already_signed_out: "Signed out successfully."
       forgot_your_password?: "Mot de passe oublié ?"
       hello: "Bonjour"
-      sign_in: "Se connecter"
-      sign_up: "S'enregistrer"
+      
     unlocks:
       send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
       send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
@@ -82,8 +81,8 @@ en:
         one: "1 error prohibited this %{resource} from being saved:"
         other: "%{count} errors prohibited this %{resource} from being saved:"
   passwords:
-      edit: 
-        change_your_password: "Changez votre mot de passe"
-        change_my_password: "Changer mon mot de passe"
-      new:
-        send_me_reset_password_instructions: "Envoyez-moi un courriel pour changer mon mot de passe"
+    edit: 
+      change_your_password: "Changez votre mot de passe"
+      change_my_password: "Changer mon mot de passe"
+    new:
+      send_me_reset_password_instructions: "Envoyez-moi un courriel pour changer mon mot de passe"

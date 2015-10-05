@@ -10,6 +10,15 @@ fr:
         remember_me: Se souvenir de moi
     models:
       user: Utilisateur
+      messages:
+        already_confirmed: "was already confirmed, please try signing in"
+        confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+        expired: "has expired, please request a new one"
+        not_found: "not found"
+        not_locked: "was not locked"
+        not_saved:
+          one: "1 erreur prohibited this %{resource} from being saved:"
+          other: "%{count} erreur(s) prohibited this %{resource} from being saved:"
   devise:
     confirmations:
       new:
@@ -17,7 +26,7 @@ fr:
     mailer:
       confirmation_instructions:
         action: Confirmer mon courriel
-        greeting: Bienvenue %{recipient}!
+        greeting: "Bienvenue %{recipient}!"
         instruction: 'Vous pouvez confirmer votre courriel grâce au lien ci-dessous:'
       reset_password_instructions:
         action: "Changer mon mot de passe"
@@ -54,6 +63,8 @@ fr:
     sessions:
       new:
         sign_in: Connexion
+        sign_in: "Se connecter"
+        sign_up: "S'enregistrer"
     shared:
       links:
         back: Retour
@@ -66,3 +77,13 @@ fr:
     unlocks:
       new:
         resend_unlock_instructions: Renvoyer les instructions de déblocage
+    errors:
+      messages:
+        already_confirmed: "was already confirmed, please try signing in"
+        confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+        expired: "has expired, please request a new one"
+        not_found: "not found"
+        not_locked: "was not locked"
+        not_saved:
+          one: "1 erreur prohibited this %{resource} from being saved:"
+          other: "%{count} erreur(s) prohibited this %{resource} from being saved:"
