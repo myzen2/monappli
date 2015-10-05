@@ -19,7 +19,8 @@ html {
 	background-color: #F6F6F6; 
 	background-image: url("http://s3.amazonaws.com/estock/fspid1/291500/building-saarland-germany-291558-h.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;  
+	background-size: 100%; 
+	margin-top: 20px; 
 }
 
 
@@ -49,8 +50,9 @@ h2 {
 .field {
 	text-align: center;
 	font-size: 24px;
-	background-color: #9FA9B5;
+	background-color: #F6F6F6;
 	padding: 20px;
+	width: 100%;
 }
 
 .actions{
@@ -69,4 +71,8 @@ h2 {
 }
 #button {
 	
+}
+
+form {
+	text-align: center;
 }
