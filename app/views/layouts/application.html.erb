@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Monappli</title>
+  <title>Mon appli</title>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -30,14 +30,14 @@
         <li><a href="#">Link</a></li>
         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liste <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="<%= 'active' %>" role="presenta">
+            <li class="<%= 'active' %>" role="presentation">
             <li><a href="/">Accueil</a></li>
             <li><a href="/about">A propos</a></li>
             <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Se connecter", new_user_session_path %></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="/utilisateurs">Mes informations</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Mon tableau de bord</a></li>
           </ul>
         </li>
       </ul>

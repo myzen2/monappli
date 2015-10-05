@@ -1,6 +1,10 @@
 <p id="notice"><%= notice %></p>
 
 <div class="informations">
+   <p>
+  <strong>ID :</strong>
+  <%= @utilisateur.id %>
+  </p>
   <p>
   <strong>Nom :</strong>
   <%= @utilisateur.nom %>
@@ -41,5 +45,5 @@
 
 
 <div class="btn btn-alert"
-<%= link_to 'Retour', utilisateurs_path %>>s
+<%= link_to 'Retour', utilisateurs_path %>>
 </div>
